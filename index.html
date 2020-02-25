@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>The Three-view Carousel</title>
+    <meta name="description" content="vanilla js carousel plugin">
+    <meta name="author" content="amethystlei">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+      #container {
+        margin-top: 10vh;
+        width: 100vw;
+        height: 80vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div three-view-carousel>
+        <div>
+          <img src="https://imgur.com/LEZh7UN.jpg" alt="cat1">
+        </div>
+        <div>
+          <img src="https://imgur.com/vqWKvNt.jpg" alt="cat2">
+        </div>
+        <div>
+          <img src="https://imgur.com/sp5GM3P.jpg" alt="cat3">
+        </div>
+        <div>
+          <img src="https://imgur.com/jkEHoJM.jpg" alt="cat4">
+        </div>
+        <div>
+          <img src="https://imgur.com/s4LFzLb.jpg" alt="cat5">
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        let carousel = new ThreeViewCarousel();
+        carousel.init();
+      })
+    </script>
+  </body>
+</html>
