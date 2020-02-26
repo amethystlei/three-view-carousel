@@ -6,7 +6,7 @@ export class ThreeViewCarousel {
         prev: `<i class="icon-arrow icon-arrow--left"></i>`,
         next: `<i class="icon-arrow icon-arrow--right"></i>`
       },
-      autoPlay: true,
+      autoPlay: false,
       duration: 5000,
     };
     this.settings = Object.assign({}, this.defaults, options || {});
