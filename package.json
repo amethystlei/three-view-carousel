@@ -1,6 +1,6 @@
 {
   "name": "three-view-carousel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vanilla js 3-view carousel plugin",
   "main": "dist/index.js",
   "scripts": {
