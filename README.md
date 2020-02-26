@@ -33,12 +33,12 @@ carousel2.init();
 
 # Options
 You can use these options to initialize the carousel
- Option  | Type      | Meaning       | Default
----------|-----------|---------------|--------
-container|DOM Element| the **main** element of carousel container |`document.querySelector("*[three-view-carousel]")`
-controls | Object    | the control elements | `{prev: '<i class="icon-arrow icon-arrow--left"></i>',next: '<i class="icon-arrow icon-arrow--right"></i>'}`
-autoPlay | Boolean | determine auto play or not | `false`
-duration | Number | milliseconds to go to next page when **autoPlay** on | 5000
+| Option    | Type        | Meaning | Default          |
+| --------- | ----------- | ------- | -----------------|
+| container | DOM Element | the **main** element of carousel container | `document.querySelector("*[three-view-carousel]")` |
+| controls | Object | the control elements | `{prev: '<i class="icon-arrow icon-arrow--left"></i>',next: '<i class="icon-arrow icon-arrow--right"></i>'}` |
+| autoPlay | Boolean | determine auto play or not | `false` |
+| duration | Number | milliseconds to go to next page when **autoPlay** on | 5000
 
 # CSS classes
 You can override styles using these classes:
