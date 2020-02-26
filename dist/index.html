@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>The Three-view Carousel</title>
+    <meta name="description" content="vanilla js carousel plugin">
+    <meta name="author" content="amethystlei">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+      #container {
+        margin-top: 10vh;
+        width: 100vw;
+        height: 80vh;
+      }
+      .item {
+        background-color: lightgray;
+        background-size: auto 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div three-view-carousel>
+        <div class="item" style="background-image:url(https://imgur.com/LEZh7UN.jpg)">
+        </div>
+        <div class="item" style="background-image:url(https://imgur.com/vqWKvNt.jpg)">
+        </div>
+        <div class="item" style="background-image:url(https://imgur.com/sp5GM3P.jpg)">
+        </div>
+        <div class="item" style="background-image:url(https://imgur.com/jkEHoJM.jpg)">
+        </div>
+        <div class="item" style="background-image:url(https://imgur.com/s4LFzLb.jpg)">
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        let carousel = new ThreeViewCarousel();
+        carousel.init();
+      })
+    </script>
+  <script type="text/javascript" src="index.js"></script></body>
+</html>
