@@ -4,7 +4,7 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 const uglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
-  mode: 'none',
+  mode: 'production',
   entry: './src/index.js',
   output: {
     library: 'ThreeViewCarousel',
